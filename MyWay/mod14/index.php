@@ -7,9 +7,11 @@
 </head>
 <body>
     <div style="text-align: center;">
-        <h1>Olá</h1>
+        <h1>Olá, informe seus dados por gentileza</h1>
         <form action="processamento.php" method="GET">
-            <input type="text" name="nome" placeholder="Escreva seu nome aqui">
+            <input type="text" name="nome" placeholder="Nome">
+            <input type="date" name="idade" placeholder="Data de Nascimento">
+            <input type="email" name="email" placeholder="E-mail">
             <input type="submit" Value="Enviar">
         </form>
     </div>
